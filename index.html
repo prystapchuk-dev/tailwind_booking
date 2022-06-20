@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="sticky top-0 left-50 z-10 w-full bg-blue-900">
+      <div class="container w-[1140px] mx-auto">
+        <nav class="px-8 pt-3 pb-0 flex items-center justify-between">
+          <div class="py-2 pr-4">
+            <div>
+              <span>
+                <svg
+                  class="bk-icon -streamline-booking_logo_dark_bg_mono"
+                  height="24"
+                  width="144"
+                  viewBox="0 0 180 30"
+                  role="presentation"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path
+                    fill="#fff"
+                    d="M70.6 2.73999C70.602 2.19808 70.7646 1.66892 71.0673 1.21943C71.3701 0.769947 71.7993 0.420321 72.3007 0.214768C72.8021 0.00921437 73.3532 -0.0430342 73.8843 0.064629C74.4155 0.172292 74.9027 0.435032 75.2845 0.819622C75.6663 1.20421 75.9255 1.69338 76.0293 2.22527C76.133 2.75716 76.0768 3.30788 75.8676 3.80779C75.6584 4.3077 75.3056 4.73434 74.8539 5.03377C74.4022 5.3332 73.8719 5.49197 73.33 5.48999C72.9702 5.48868 72.6141 5.41651 72.2822 5.2776C71.9503 5.13869 71.649 4.93576 71.3955 4.6804C71.1419 4.42504 70.9412 4.12225 70.8047 3.78931C70.6683 3.45637 70.5987 3.09982 70.6 2.73999V2.73999ZM116.5 23.77C117.044 23.772 117.577 23.6124 118.031 23.3114C118.484 23.0104 118.838 22.5816 119.048 22.0793C119.257 21.577 119.313 21.0238 119.208 20.4897C119.103 19.9555 118.842 19.4646 118.458 19.079C118.074 18.6934 117.584 18.4305 117.05 18.3236C116.516 18.2167 115.963 18.2705 115.46 18.4784C114.957 18.6862 114.527 19.0387 114.224 19.4911C113.922 19.9436 113.76 20.4757 113.76 21.02C113.76 21.7476 114.048 22.4456 114.562 22.961C115.075 23.4764 115.772 23.7673 116.5 23.77V23.77ZM25.7 6.72999C24.0129 6.74775 22.3688 7.26426 20.9746 8.21447C19.5805 9.16469 18.4986 10.5061 17.8653 12.0699C17.2319 13.6337 17.0754 15.3499 17.4154 17.0025C17.7554 18.6551 18.5767 20.1701 19.776 21.3569C20.9752 22.5436 22.4988 23.349 24.1548 23.6717C25.8108 23.9944 27.5253 23.8199 29.0824 23.1702C30.6395 22.5205 31.9695 21.4247 32.9051 20.0206C33.8406 18.6166 34.3399 16.9672 34.34 15.28C34.3768 14.1396 34.1778 13.0038 33.7555 11.9438C33.3331 10.8839 32.6965 9.92248 31.8855 9.11989C31.0744 8.3173 30.1064 7.69078 29.0421 7.27955C27.9778 6.86831 26.84 6.68122 25.7 6.72999V6.72999ZM25.7 19.83C23.35 19.83 21.7 17.96 21.7 15.28C21.7 12.6 23.34 10.73 25.7 10.73C28.06 10.73 29.7 12.6 29.7 15.28C29.7 17.96 28.11 19.83 25.7 19.83ZM65.3 15.71C65.1321 15.3716 64.9128 15.0613 64.65 14.79L64.5 14.63L64.66 14.48C64.9116 14.2078 65.1423 13.917 65.35 13.61L69.74 7.05999H64.41L61.1 12.19C60.9586 12.3442 60.782 12.4621 60.5852 12.5334C60.3885 12.6048 60.1774 12.6277 59.97 12.6H59.22V2.90999C59.22 0.979993 58.01 0.709993 56.71 0.709993H54.48V23.58H59.21V16.72H59.65C60.19 16.72 60.56 16.78 60.73 17.08L63.35 21.97C63.5773 22.5089 63.9785 22.9563 64.4895 23.2408C65.0006 23.5253 65.5922 23.6306 66.17 23.54H69.8L67.09 19.07L65.3 15.71ZM88.27 6.68999C87.3747 6.67014 86.4851 6.83782 85.6584 7.18226C84.8318 7.5267 84.0863 8.04028 83.47 8.68999L83.18 8.97999L83.08 8.57999C82.9261 8.08803 82.6021 7.66692 82.166 7.39207C81.7299 7.11723 81.2102 7.0066 80.7 7.07999H78.57V23.57H83.29V15.97C83.275 15.2919 83.373 14.6159 83.58 13.97C83.7979 13.1302 84.2923 12.3883 84.9836 11.8639C85.6748 11.3396 86.5225 11.0634 87.39 11.08C88.85 11.08 89.39 11.85 89.39 13.86V21.05C89.335 21.3921 89.3619 21.7424 89.4686 22.072C89.5753 22.4017 89.7586 22.7013 90.0036 22.9463C90.2487 23.1914 90.5483 23.3747 90.878 23.4814C91.2076 23.5881 91.5579 23.615 91.9 23.56H94.12V13.07C94.15 8.89999 92.12 6.68999 88.27 6.68999V6.68999ZM73.39 7.05999H71.17V23.58H75.87V9.57999C75.9234 9.24041 75.8964 8.89304 75.7913 8.56576C75.6862 8.23848 75.5058 7.94038 75.2647 7.69537C75.0236 7.45037 74.7284 7.26527 74.4028 7.15493C74.0773 7.04459 73.7304 7.01208 73.39 7.05999V7.05999ZM44.16 6.72999C42.4729 6.74775 40.8288 7.26426 39.4346 8.21447C38.0405 9.16469 36.9586 10.5061 36.3253 12.0699C35.6919 13.6337 35.5354 15.3499 35.8754 17.0025C36.2154 18.6551 37.0367 20.1701 38.236 21.3569C39.4352 22.5436 40.9588 23.349 42.6148 23.6717C44.2708 23.9944 45.9853 23.8199 47.5424 23.1702C49.0995 22.5205 50.4295 21.4247 51.3651 20.0206C52.3006 18.6166 52.7999 16.9672 52.8 15.28C52.8368 14.1396 52.6378 13.0038 52.2155 11.9438C51.7931 10.8839 51.1565 9.92248 50.3455 9.11989C49.5344 8.3173 48.5664 7.69078 47.5021 7.27955C46.4378 6.86831 45.3 6.68122 44.16 6.72999V6.72999ZM44.16 19.83C41.81 19.83 40.16 17.96 40.16 15.28C40.16 12.6 41.8 10.73 44.16 10.73C46.52 10.73 48.16 12.6 48.16 15.28C48.16 17.96 46.57 19.83 44.16 19.83ZM144.89 6.72999C143.203 6.74775 141.559 7.26426 140.165 8.21447C138.77 9.16469 137.689 10.5061 137.055 12.0699C136.422 13.6337 136.265 15.3499 136.605 17.0025C136.945 18.6551 137.767 20.1701 138.966 21.3569C140.165 22.5436 141.689 23.349 143.345 23.6717C145.001 23.9944 146.715 23.8199 148.272 23.1702C149.829 22.5205 151.16 21.4247 152.095 20.0206C153.031 18.6166 153.53 16.9672 153.53 15.28C153.567 14.1396 153.368 13.0038 152.945 11.9438C152.523 10.8839 151.887 9.92248 151.075 9.11989C150.264 8.3173 149.296 7.69078 148.232 7.27955C147.168 6.86831 146.03 6.68122 144.89 6.72999V6.72999ZM144.89 19.83C142.54 19.83 140.89 17.96 140.89 15.28C140.89 12.6 142.53 10.73 144.89 10.73C147.25 10.73 148.89 12.6 148.89 15.28C148.89 17.96 147.3 19.83 144.89 19.83ZM109.74 7.01999C109.356 6.98285 108.97 7.05749 108.627 7.23491C108.285 7.41233 108.001 7.68497 107.81 8.01999L107.69 8.26999L107.47 8.07999C106.253 7.08344 104.711 6.57072 103.14 6.63999C98.75 6.63999 95.78 9.94999 95.78 14.87C95.78 19.79 98.85 23.22 103.23 23.22C104.521 23.2791 105.795 22.9061 106.85 22.16L107.21 21.88V22.34C107.21 24.55 105.78 25.77 103.21 25.77C102.131 25.755 101.062 25.5555 100.05 25.18C99.8562 25.0813 99.6419 25.0295 99.4244 25.0287C99.2069 25.0279 98.9923 25.0782 98.7977 25.1754C98.6032 25.2727 98.4342 25.4143 98.3043 25.5887C98.1745 25.7632 98.0874 25.9657 98.05 26.18L97.14 28.46L97.47 28.63C99.2593 29.5195 101.232 29.9783 103.23 29.97C107.23 29.97 111.9 27.91 111.9 22.14V7.01999H109.74ZM104.06 19.11C101.5 19.11 100.58 16.86 100.58 14.76C100.58 13.83 100.81 10.76 103.81 10.76C105.3 10.76 107.3 11.18 107.3 14.86C107.3 18.38 105.54 19.11 104.06 19.11ZM13.09 11.85L12.4 11.47L13 10.97C13.6103 10.4334 14.0951 9.76919 14.42 9.02435C14.7449 8.27951 14.9019 7.47231 14.88 6.65999C14.88 3.05999 12.09 0.739993 7.79 0.739993H2.31C1.69606 0.762953 1.11431 1.02048 0.684566 1.45953C0.254821 1.89857 0.00981021 2.48571 0 3.09999L0 23.5H7.88C12.67 23.5 15.77 20.89 15.77 16.84C15.8104 15.8446 15.583 14.8566 15.1116 13.9789C14.6403 13.1012 13.9421 12.3661 13.09 11.85V11.85ZM4.37 6.07999C4.37 5.01999 4.82 4.51999 5.8 4.45999H7.8C8.16093 4.42761 8.52456 4.47504 8.8651 4.59892C9.20565 4.7228 9.51476 4.9201 9.77052 5.17681C10.0263 5.43353 10.2224 5.74338 10.345 6.08438C10.4676 6.42538 10.5137 6.78919 10.48 7.14999C10.5194 7.51629 10.4791 7.88679 10.3616 8.23598C10.2442 8.58517 10.0524 8.90477 9.79964 9.17277C9.54684 9.44077 9.23898 9.65082 8.89723 9.78844C8.55549 9.92606 8.18798 9.988 7.82 9.96999H4.37V6.07999ZM8.2 19.64H4.37V15.06C4.37 14.06 4.76 13.57 5.59 13.45H8.2C8.99043 13.4949 9.7337 13.8406 10.2774 14.4161C10.8211 14.9916 11.124 15.7533 11.124 16.545C11.124 17.3367 10.8211 18.0984 10.2774 18.6739C9.7337 19.2494 8.99043 19.595 8.2 19.64ZM174.53 6.73999C173.558 6.74366 172.6 6.96575 171.726 7.38984C170.852 7.81393 170.084 8.42915 169.48 9.18999L169.14 9.62999L168.87 9.13999C168.437 8.355 167.787 7.71128 166.998 7.2857C166.209 6.86012 165.314 6.67067 164.42 6.73999C163.604 6.75328 162.798 6.93308 162.054 7.26838C161.309 7.60368 160.641 8.08742 160.09 8.68999L159.65 9.16999L159.48 8.53999C159.323 8.07152 159.008 7.67282 158.587 7.41334C158.167 7.15386 157.669 7.05005 157.18 7.11999H155.18V23.57H159.64V16.31C159.646 15.6629 159.727 15.0187 159.88 14.39C160.31 12.63 161.49 10.74 163.47 10.93C164.69 11.05 165.29 11.99 165.29 13.82V23.57H169.81V16.31C169.791 15.6345 169.875 14.9601 170.06 14.31C170.42 12.64 171.65 10.92 173.56 10.92C174.94 10.92 175.45 11.7 175.45 13.81V21.17C175.45 22.83 176.19 23.57 177.85 23.57H180V13.07C180 8.86999 178.15 6.73999 174.53 6.73999ZM133.69 17.86C132.51 19.095 130.913 19.8471 129.21 19.97C128.593 20.0073 127.974 19.914 127.395 19.6962C126.816 19.4784 126.29 19.141 125.85 18.706C125.41 18.271 125.067 17.7482 124.843 17.1716C124.619 16.5951 124.519 15.9778 124.55 15.36C124.498 14.7504 124.575 14.1365 124.776 13.5588C124.978 12.981 125.299 12.4524 125.719 12.0076C126.14 11.5629 126.649 11.212 127.215 10.978C127.78 10.744 128.388 10.6322 129 10.65C129.84 10.65 130.8 10.95 130.95 11.46V11.55C131.048 11.8986 131.258 12.2056 131.547 12.424C131.835 12.6425 132.188 12.7605 132.55 12.76H135V10.61C135 7.76999 131.39 6.73999 129 6.73999C123.81 6.73999 120 10.37 120 15.35C120 20.33 123.73 23.97 128.86 23.97C130.178 23.9562 131.479 23.6722 132.683 23.1355C133.887 22.5989 134.969 21.821 135.86 20.85L134 17.58L133.69 17.86Z"
+                  ></path>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="flex items-center space-x-2.5">
+            <div>
+              <button
+                class="px-3 py-3 text-white font-medium rounded bg-blue-400 bg-opacity-0 hover:bg-opacity-30"
+              >
+                UAH
+              </button>
+            </div>
+            <div>
+              <button
+                class="px-3 py-3 rounded bg-blue-400 bg-opacity-0 hover:bg-opacity-30"
+              >
+                <div class="w-6 h-6 rounded-full overflow-hidden">
+                  <img class="w-6 h-6" src="./src/images/ger-byf.png" alt="" />
+                </div>
+              </button>
+            </div>
+            <div>
+              <button
+                class="px-3 py-3 rounded bg-blue-400 bg-opacity-0 hover:bg-opacity-30"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-6 text-white"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div>
+              <button
+                class="p-2 text-sm font-medium text-white rounded-[2px] border bg-blue-400 bg-opacity-0 hover:bg-opacity-20"
+              >
+                Зареєструвати своє помешкання
+              </button>
+            </div>
+            <div>
+              <a
+                href="#"
+                class="block px-4 py-2 text-sm text-blue-800 font-medium border border-blue-600 rounded-[2px] bg-white"
+              >
+                Зареєструватися
+              </a>
+            </div>
+            <div>
+              <a
+                href="#"
+                class="block px-4 py-2 text-sm text-blue-800 font-medium border border-blue-600 rounded-[2px] bg-white"
+              >
+                Увійти
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="w-full bg-blue-900">
+      <div class="container w-[1140px] mx-auto">
+        <nav class="px-4 pt-2 pb-3 flex items-center justify-between">
+          <ul class="flex space-x-2">
+            <li>
+              <a
+                href="#"
+                class="flex space-x-2 px-4 py-3 rounded-full bg-blue-400 bg-opacity-20 border"
+              >
+                <svg
+                  class="w-5 text-white"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                  style="enable-background: new 0 0 512 512"
+                  xml:space="preserve"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M73.1 64C43 64 18.2 88.8 18.2 118.9v124C7.1 252.9 0 267.4 0 283.4V448h91.4v-36.6h329.1V448H512V283.4c0-16.1-7.1-30.5-18.3-40.6v-124c0-30.1-24.8-54.9-54.9-54.9H73.1v.1zm0 36.6h365.7c10.1 0 18.3 8.1 18.3 18.3v109.7h-36.6v-18.3c0-30.1-24.8-54.9-54.9-54.9h-73.1c-14 0-26.9 5.5-36.6 14.3-9.7-8.8-22.6-14.3-36.6-14.3h-73.1c-30.1 0-54.9 24.8-54.9 54.9v18.3H54.9V118.9c0-10.2 8.1-18.3 18.2-18.3zm73.2 91.4h73.1c10.1 0 18.3 8.1 18.3 18.3v18.3H128v-18.3c0-10.2 8.1-18.3 18.3-18.3zm146.3 0h73.1c10.1 0 18.3 8.1 18.3 18.3v18.3H274.3v-18.3c0-10.2 8.1-18.3 18.3-18.3zM54.9 265.1h402.3c10.1 0 18.3 8.1 18.3 18.3v128h-18.3v-36.6H54.9v36.6H36.6v-128c0-10.1 8.1-18.3 18.3-18.3z"
+                  />
+                </svg>
+                <span class="text-sm font-medium text-white">Помешкання</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="flex space-x-2 px-4 py-3 rounded-full bg-blue-400 bg-opacity-0 hover:bg-opacity-30"
+              >
+                <svg
+                  class="w-5 text-white"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                  style="enable-background: new 0 0 512 512"
+                  xml:space="preserve"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M509.4 242.3c-1.4-3.8-3.4-7.3-5.9-10.4-2.1-2.7-4.5-5.1-7.1-7.3-4.6-3.8-9.7-6.8-15.3-9.3-8.4-3.7-17.9-6.3-28.5-8.1-10.6-1.7-22.2-2.6-34.9-2.6v.2c-2 0-5.9 0-9.8.1-2 0-4 .1-5.8.1-.9 0-1.7 0-2.5.1-.5 0-1 0-1.4.1v-.1l-61.8 1.6L202.6 44l-.1.1c-4.7-5.8-11.7-9.5-19.2-10h-29.7c-5.8 0-11.2 2.9-14.3 7.8-3.2 4.9-3.6 11-1.2 16.3l68.7 151.6-103.9 1.5-37-44.9c-1.8-2.3-3.9-4.2-6.1-5.8-3.4-2.5-6.9-4.1-10.5-5.2-3.6-1.1-7.3-1.7-11-1.7H18.2c-1.8 0-4 .2-6.5 1.2-1.9.7-3.9 1.9-5.6 3.4-1.3 1.1-2.4 2.5-3.2 3.8-1.3 2-1.9 4-2.3 5.6-.4 1.7-.4 3-.5 4.1 0 1.8.2 3 .4 4s.4 1.7.5 2.2v-.1l21.2 76.2c.2.7.3 1 .6 1.7v.2c-.3.7-.4 1-.6 1.6L1 333.5c-.2.6-.3 1.3-.5 2.2-.2 1-.4 2.4-.4 4.2 0 .9.1 2 .3 3.3.2 1.1.5 2.3 1 3.5.4 1.1 1 2.2 1.7 3.3 1.2 1.9 2.9 3.6 4.6 4.8 1.3.9 2.6 1.6 3.7 2.1 1.8.7 3.3 1.1 4.6 1.3 1.3.2 2.4.2 3.4.2h19.1c2.5 0 4.9-.1 7.6-.4 2-.3 4.3-.8 6.6-1.7 1.7-.7 3.4-1.6 4.9-2.6 1.1-.8 2.1-1.6 3-2.3 1.3-1.2 2.3-2.3 3.2-3.3.8-.9 1.5-1.7 2.1-2.6l37.8-45.8 102.8 2.3-68.8 151.8c-2.4 5.3-2 11.4 1.2 16.3s8.5 7.8 14.3 7.8H183c7.6-.5 14.6-4.1 19.3-10l134.1-162.6 61.6 1.6v-.1c.5 0 1.1.1 1.6.1 1.3 0 2.9.1 4.5.1 2.5 0 5.3.1 7.7.1h5.9c12.6 0 24.2-.9 34.7-2.6 7.9-1.3 15.2-3.1 21.9-5.4 5-1.8 9.7-3.9 14.1-6.4 3.2-1.9 6.3-4.1 9.1-6.5 4.2-3.7 7.8-8.1 10.4-13.3 1.3-2.6 2.3-5.4 3-8.2.7-2.9 1-5.8 1-8.8 0-4.6-.8-9.3-2.5-13.6zM33.6 342.9h.2-.2zm443.8-85.4c-.2.4-.4.9-.9 1.5-.4.6-1.1 1.3-2 2-1.6 1.3-4 2.9-7.4 4.4-5 2.2-11.8 4.2-20.2 5.6-8.4 1.4-18.2 2.2-29.3 2.2-1.7 0-5.6 0-9.4-.1-1.9 0-3.8-.1-5.4-.1-.8 0-1.5 0-2.1-.1-.6 0-1 0-1.2-.1h-.6l-68.2-1.8h-.5c-.7 0-1.2 0-1.8.1-.9.1-1.7.2-2.5.3-.6.1-1.3.3-2 .5-.5.2-1.1.3-1.8.6-1 .4-2.1.9-3.7 1.8-.8.5-1.6 1.1-2.5 1.9-.6.5-1.2 1.2-1.8 1.9h-.1L183.1 437.5 247 296.3l.2-.5c1-2.3 1.5-4.8 1.5-7.3v-.4c0-2.7-.5-5.3-1.5-7.7-1.5-3.6-3.9-6.5-7-8.7-1.6-1.1-3.3-2-5.1-2.6-1.8-.6-3.8-1-5.8-1l-128.7-2.9h-.6c-7.9 0-15.3 3.6-20.2 9.8l13.4 10.6L79.8 275l-40.2 48.7-.2.2s0 .1-.1.1h-.4l15.8-56.2c1.5-3.8 2.2-7.9 2.2-12s-.7-8.1-2.2-12L39.2 188c.1 0 .2 0 .2.1l39.3 47.6c4.9 6.2 12.3 9.9 20.2 9.9h.8l129.6-1.9v-.1c2.8 0 5.6-.6 8.2-1.9 3.5-1.6 6.4-4.3 8.3-7.4 1.9-3.1 2.9-6.6 2.9-10.3 0-2.8-.6-5.7-1.9-8.4L182.6 73.8l131.6 160a19.144 19.144 0 0 0 14.9 7.2h.5v.1l69.2-1.8h.6c.2 0 .6 0 1.2-.1 1 0 2.4-.1 4-.1 2.3 0 5-.1 7.4-.1h5.6v-17.1h.1V239c11.1 0 20.9.8 29.3 2.1 6.3 1 11.7 2.4 16.1 3.9 3.3 1.2 6 2.4 8.2 3.7 1.6.9 2.8 1.8 3.7 2.6 1.4 1.2 2 2.2 2.3 2.8.2.3.3.6.3.9.1.3.1.6.1 1 0 .7-.1 1-.3 1.5z"
+                  />
+                </svg>
+                <span class="text-sm font-medium text-white">Авіаквитки</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="flex space-x-2 px-4 py-3 rounded-full bg-blue-400 bg-opacity-0 hover:bg-opacity-30"
+              >
+                <svg
+                  class="w-5 text-white"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                  style="enable-background: new 0 0 512 512"
+                  xml:space="preserve"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M491.9 156.3c-19.4-46-51.9-85-92.7-112.6C358.3 16.1 309 0 256 0c-35.3 0-69 7.2-99.7 20.1-46 19.4-85 51.9-112.6 92.7C16.1 153.7 0 203 0 256c0 35.3 7.2 69 20.1 99.7 19.4 46 51.9 85 92.7 112.6C153.7 495.9 203 512 256 512c35.3 0 69-7.2 99.7-20.1 46-19.4 85-51.9 112.6-92.7C495.9 358.3 512 309 512 256c0-35.3-7.2-69-20.1-99.7zm-368.7-75c-1 11.8 2.5 23.7 9.9 33.1 6.8 8.7 17.6 11.5 18.1 23.4.5 11.4-1.3 17.3-8.8 25.3-3.2 3.4-5.5 8.3-8.8 11.5-4 3.9-2.5 2.7-8.8 3.8-11.8 2-21.9 5.1-33.4 8.2-18 5-20.6-22.4-28.1-35.8 14.9-27.2 35.4-50.9 59.9-69.5zM74 378.8c-23.7-35-37.5-77.2-37.5-122.7 0-19.9 2.7-39.2 7.6-57.6 8.4 18.1 20.6 33.7 28.9 52.2 10.7 23.8 39.5 17.2 52.2 38.1 11.3 18.5-.8 42 7.7 61.3 6.1 14.1 20.6 17.1 30.5 27.4 10.2 10.4 10 24.6 11.5 38.1 1.8 15.9 4.6 31.7 8.5 47.2 0 .2.1.3.1.5-4.4-1.5-8.7-3.2-12.9-5-39.4-16.6-72.9-44.5-96.6-79.5zm95.8-88.7c3.2-.7 16.2 1.6 20.2 2.4 6.3 1.3 9.7 5.2 14.7 9.1 13 10.4 27.3 18.5 41.8 26.4 11.2 6.2 14.5 14.1 7.3 27-6.9 12.2-22.1 20.4-31.9 30.2-2.7 2.6-8.3 11.8-11.7 9.8-2.4-1.4-3.2-13.3-4.1-16-4.5-13.7-13.2-25.7-24.8-34.2-3.6-2.7-12.4-6.2-14.5-9.9-2.3-4-.2-13.6-.1-17.9.1-6.4-2.8-17-1.2-22.9 1.8-6.7-1.7-2.7 4.3-4zM378.7 438c-35 23.7-77.2 37.5-122.7 37.5-12.5 0-24.7-1.1-36.7-3.1.1-3.1.2-6 .5-8 2.8-18.2 11.9-35.9 24.1-49.5 12.1-13.4 28.7-22.5 39-37.7 10.2-14.9 13.2-34.9 9-52.3-6.1-25.6-40.9-34.2-59.7-48.1-10.8-8-20.4-20.4-34.6-21.4-6.5-.5-12 .9-18.5-.7-5.9-1.5-10.6-4.7-16.9-3.9-11.8 1.6-19.3 14.2-32 12.5-12.1-1.6-24.5-15.7-27.2-27.2-3.5-14.8 8.2-19.6 20.7-20.9 5.2-.5 11.1-1.1 16.1.8 6.6 2.5 9.7 8.9 15.7 12.2 11.1 6.1 13.4-3.6 11.7-13.5-2.5-14.8-5.5-20.8 7.7-31 9.1-7 17-12.1 15.5-24.7-.9-7.4-4.9-10.8-1.1-18.1 2.9-5.6 10.7-10.7 15.9-14 13.2-8.6 56.7-8 39-32.2-5.2-7.1-14.9-19.8-24-21.5-11.4-2.2-16.5 10.6-24.5 16.2-8.2 5.8-24.3 12.4-32.5 3.4-11.1-12.1 7.3-16.1 11.4-24.5 1.9-3.9 0-9.5-3.4-14.8 4.1-1.7 8.2-3.3 12.4-4.8 2.7 1.9 5.6 3.2 9.2 3.4 7.6.5 14.9-3.6 21.5 1.6 7.4 5.7 12.7 12.9 22.6 14.7 9.5 1.7 19.6-3.8 21.9-13.6 1.5-5.9 0-12.1-1.3-18.3 29.7.2 58.1 6.3 83.8 17.2 12.9 5.4 25.1 12.1 36.6 19.7-2.3-1-5.2-1-8.8.7-6.9 3.2-16.8 11.4-17.6 19.6-.8 9.2 12.8 10.5 19.2 10.5 9.7 0 19.6-4.3 16.4-15.6-1.4-5-3.3-10.3-6.5-13.3 7.3 5 14.2 10.5 20.8 16.3-.1.1-.2.2-.3.2-6.6 6.9-14.2 12.3-18.7 20.6-3.2 5.9-6.8 8.7-13.2 10.2-3.5.8-7.6 1.1-10.6 3.5-8.3 6.8-3.5 22.4 4.3 27.1 9.9 5.9 24.6 3.1 32.1-5.3 5.8-6.6 9.3-18.1 19.8-18.1 4.6 0 9.1 1.8 12.4 5 4.3 4.5 3.5 8.7 4.4 14.3 1.7 10 10.4 4.6 15.8-.5 3.9 7 7.4 14.1 10.6 21.5-5.9 8.5-10.5 17.8-24.8 7.9-8.5-5.9-13.7-14.5-24.4-17.1-9.3-2.3-18.9.1-28.1 1.7-10.5 1.8-22.9 2.6-30.8 10.5-7.7 7.6-11.7 17.9-19.9 25.5-15.8 14.9-22.4 31.1-12.2 52.1 9.8 20.2 30.4 31.2 52.6 29.7 21.8-1.5 44.4-14.1 43.8 17.6-.2 11.2 2.1 19 5.6 29.4 3.2 9.6 3 18.9 3.7 28.8.8 11.2 2.4 23.1 5.5 34.5-14.1 18.4-31.1 34.3-50.3 47.3zm80.7-99.5c-.1-2.2-.4-4.3-.7-6.5-1.5-9.8-7.3-19-8.1-28.7-1.5-18.1 1.8-32.5-12.1-47.6-13.4-14.6-33.1-18.1-52-15.1-9.5 1.5-47.7 7.6-32.3-14.1 3-4.3 8.3-7.8 11.7-11.8 3-3.5 5.5-10 9-12.8 3.5-2.8 19.4-5.9 24-4.5 4.6 1.4 9.3 8 13.3 10.9 7.3 5.5 15.9 9.2 24.9 10.7 8.8 1.3 23.2-1.1 33.9-7 2.9 14.2 4.4 28.9 4.4 44 0 29.2-5.7 57.1-16 82.5z"
+                  />
+                </svg>
+                <span class="text-sm font-medium text-white"
+                  >Переліт + Готель</span
+                >
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="flex space-x-2 px-4 py-3 rounded-full bg-blue-400 bg-opacity-0 hover:bg-opacity-30"
+              >
+                <svg
+                  class="w-5 text-white"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                  style="enable-background: new 0 0 512 512"
+                  xml:space="preserve"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M131 63.7c-25.4 0-48 16.5-55.3 40.9l-26.4 88.3L12 180.3l-12 36L37.9 229l-12 40.9c-.5 1.7-.7 3.6-.6 5.4v153.8c0 10.6 8.6 19.2 19.2 19.2h57.7l6.6-19.2h294.5l6.6 19.2h57.7c10.6 0 19.2-8.6 19.2-19.2V275.2c.1-1.8-.2-3.7-.6-5.4l-12-40.9 37.9-12.6-12-36.1-37.3 12.6-26.4-88.3c-7.4-24.3-30-40.8-55.4-40.8H131zm0 38.5h250c8.6 0 16.2 5.6 18.6 13.8l24.6 82.3H87.7l24.6-82.3c2.6-8.3 10.1-13.8 18.7-13.8zM76.3 236.8h359.4l12.6 42.1v111.8H63.7V278.8l12.6-42zm35.5 19.2C95.9 256 83 268.9 83 284.8s12.9 28.8 28.8 28.8 28.8-12.9 28.8-28.8-12.9-28.8-28.8-28.8zm288.4 0c-15.9 0-28.8 12.9-28.8 28.8s12.9 28.8 28.8 28.8 28.8-12.9 28.8-28.8c.1-15.9-12.8-28.8-28.8-28.8zm-221.1 57.7-24 57.7h41.5l8.4-19.2h102.2l8.4 19.2H357l-24-57.7H179.1z"
+                  />
+                </svg>
+                <span class="text-sm font-medium text-white">Оренда авто</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="flex space-x-2 px-4 py-3 rounded-full bg-blue-400 bg-opacity-0 hover:bg-opacity-30"
+              >
+                <svg
+                  class="w-5 text-white"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                  style="enable-background: new 0 0 512 512"
+                  xml:space="preserve"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M333.4 171.1 256 36l-77.4 135.1v45h154.8zM49.8 216.1h77.4v-51.4c0-4.7.8-8.7 3.2-12.6l79.8-139.9-175.4 132c-6.3 4.7-10.3 12.6-10.3 20.5v26.1c0 13.4 11.1 25.3 25.3 25.3zM384.8 164.7v51.4h77.4c14.2 0 26.1-11.9 26.1-26.1v-26c0-7.9-4-15.8-10.3-20.5L301.8 12.2l79.8 139.9c2.4 3.9 3.2 7.9 3.2 12.6zM229.9 241.4h51.4V499h-51.4zM463 312.5l-20.5 83.8h-83.8c-14.2 0-26.1 11.9-26.1 26.1v77.4H384v-51.4h51.4v51.4h51.4v-74.3l25.3-99.6-49.1-13.4zM153.3 396.2h-83l-20.5-83.8L0 325.1l25.3 99.6V499h51.4v-51.4H128V499h51.4v-77.4c-.8-13.5-11.9-25.4-26.1-25.4z"
+                  />
+                </svg>
+                <span class="text-sm font-medium text-white">Дозвілля</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="flex space-x-2 px-4 py-3 rounded-full bg-blue-400 bg-opacity-0 hover:bg-opacity-30"
+              >
+                <svg
+                  class="w-5 text-white"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                  style="enable-background: new 0 0 512 512"
+                  xml:space="preserve"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M47.4 331.9h37.9V218.1h47.4v-38H0v38h47.4zM347.8 331.9l26.7-41.1 26.7 41.1h45.2L397.1 256l49.3-75.9h-45.2l-26.7 41.1-26.7-41.1h-45.2l49.3 75.9-49.3 75.9zM474.1 180.1H512v151.7h-37.9zM0 94.8h512v37.9H0zM0 379.3h512v37.9H0zM238.6 303.4l9.5 28.4h40l-50.6-151.7H183l-46.8 151.7H176l8.8-28.4h53.8zm-28-84 15.3 46h-29.5l14.2-46z"
+                  />
+                </svg>
+                <span class="text-sm font-medium text-white"
+                  >Таксі з/до аеропорту</span
+                >
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="w-full bg-blue-900">
+      <div class="container w-[1140px] mx-auto">
+        <header class="px-4 pt-14 pb-4">
+          <h1 class="pr-2 text-5xl leading-tight font-bold text-white">
+            Знайдіть помешкання для наступної подорожі
+          </h1>
+          <p class="text-2xl mt-2 text-white">
+            Знаходьте пропозиції готелів, приватних помешкань та багато
+            іншого...
+          </p>
+        </header>
+      </div>
+    </div>
+    <div class="sticky z-50 w-full h-10 bg-blue-900 sm:relative lg:sticky lg:top-[60px]">
+      <div class="absolute top-3 w-full">
+        <div class="container w-[1140px] mx-auto">
+          <form action="" class="flex flex-col space-y-4 px-4">
+            <div class="bg-yellow-300 shadow-lg p-1 rounded flex space-x-1">
+              <div class="relative grow">
+                <div class="absolute flex items-center inset-y-0 pl-4">
+                  <svg
+                    class="text-gray-400 w-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                    style="enable-background: new 0 0 512 512"
+                    xml:space="preserve"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M73.1 64C43 64 18.2 88.8 18.2 118.9v124C7.1 252.9 0 267.4 0 283.4V448h91.4v-36.6h329.1V448H512V283.4c0-16.1-7.1-30.5-18.3-40.6v-124c0-30.1-24.8-54.9-54.9-54.9H73.1v.1zm0 36.6h365.7c10.1 0 18.3 8.1 18.3 18.3v109.7h-36.6v-18.3c0-30.1-24.8-54.9-54.9-54.9h-73.1c-14 0-26.9 5.5-36.6 14.3-9.7-8.8-22.6-14.3-36.6-14.3h-73.1c-30.1 0-54.9 24.8-54.9 54.9v18.3H54.9V118.9c0-10.2 8.1-18.3 18.2-18.3zm73.2 91.4h73.1c10.1 0 18.3 8.1 18.3 18.3v18.3H128v-18.3c0-10.2 8.1-18.3 18.3-18.3zm146.3 0h73.1c10.1 0 18.3 8.1 18.3 18.3v18.3H274.3v-18.3c0-10.2 8.1-18.3 18.3-18.3zM54.9 265.1h402.3c10.1 0 18.3 8.1 18.3 18.3v128h-18.3v-36.6H54.9v36.6H36.6v-128c0-10.1 8.1-18.3 18.3-18.3z"
+                    />
+                  </svg>
+                </div>
+                <input
+                  type="text"
+                  class="w-full pl-12 pr-9 h-[52px] focus:ring-0 rounded-[2px] border border-orange-500 border-opacity-0 hover:border-opacity-100 placeholder:text-black text-sm font-medium focus:placeholder:text-gray-400"
+                  placeholder="Куди ви вирушаєте?"
+                />
+              </div>
+              <div class="relative w-44">
+                <div date-rangepicker="" class="flex items-center">
+                  <div class="relative">
+                    <div
+                      class="absolute inset-y-0 left-0 flex items-center pl-4 pointer-events-none"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="bk-icon -experiments-calendar sb-date-picker_icon-svg"
+                        fill="#BDBDBD"
+                        focusable="false"
+                        height="20"
+                        role="presentation"
+                        width="20"
+                        viewBox="0 0 128 128"
+                      >
+                        <path
+                          d="m112 16h-16v-8h-8v8h-48v-8h-8v8h-16c-4.4 0-8 3.9-8 8.7v86.6c0 4.8 3.6 8.7 8 8.7h96c4.4 0 8-3.9 8-8.7v-86.6c0-4.8-3.6-8.7-8-8.7zm0 95.3a1.1 1.1 0 0 1 -.2.7h-95.6a1.1 1.1 0 0 1 -.2-.7v-71.3h96zm-68-43.3h-12v-12h12zm0 28h-12v-12h12zm26-28h-12v-12h12zm0 28h-12v-12h12zm26 0h-12v-12h12zm0-28h-12v-12h12z"
+                          fill-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </div>
+                    <input
+                      name="start"
+                      type="text"
+                      class="w-full pl-12 pr-9 h-[52px] focus:ring-0 outline-none rounded-[2px] border border-orange-500 border-opacity-0 hover:border-opacity-100 placeholder:text-black text-sm font-medium focus:placeholder:text-gray-400"
+                      placeholder="Заїзд - Виїзд"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="relative">
+                <div date-rangepicker="" class="flex items-center">
+                  <div class="relative">
+                    <div
+                      class="absolute inset-y-0 left-0 flex items-center pl-4 pointer-events-none"
+                    >
+                      <svg
+                        class="w-4 text-gray-400"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                        style="enable-background: new 0 0 512 512"
+                        xml:space="preserve"
+                        fill="currentColor"
+                      >
+                        <path
+                          d="M128 128C128 57.3 185.3 0 256 0s128 57.3 128 128v51.2c0 70.7-57.3 128-128 128s-128-57.3-128-128V128zM0 427c77.8-45.1 166.1-68.7 256-68.6 93.2 0 180.7 24.8 256 68.6v85H0v-85z"
+                        />
+                      </svg>
+                    </div>
+                    <div
+                      class="flex items-center space-x-3 bg-white pl-12 pr-4 h-[52px] focus:ring-0 outline-none rounded-[2px] border border-orange-500 border-opacity-0 hover:border-opacity-100 placeholder:text-black text-sm font-medium focus:placeholder:text-gray-400"
+                    >
+                      <span>2 дорослих</span>
+                      <span>&middot;<span class="pl-2">0 дітей</span></span>
+                      <span>&middot;<span class="pl-2">1 номер</span></span>
+                      <div class="relative">
+                        <div class="absolute -bottom-1 -right-2 rotate-180">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-4 w-4 text-blue-700"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                              clip-rule="evenodd"
+                            />
+                          </svg>
+                        </div>
+                        <div class="absolute -top-1 -left-2">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-4 w-4 text-blue-700"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                              clip-rule="evenodd"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <button
+                  class="h-[52px] px-8 py-[5px] rounded-[2px] text-white text-xl font-medium outline-none bg-blue-600 hover:bg-blue-800"
+                >
+                  Шукати
+                </button>
+              </div>
+
+              <!--<div class="flex items-center">
+                <input  id="checked-checkbox" type="checkbox" value="" class="w-5 h-5 text-blue-600 bg-white rounded-[2px] border-gray-300 active:outline-none focus:ring-transparent dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                <label for="checked-checkbox" class="ml-2 text-sm  text-gray-900 dark:text-gray-300">Я подорожую у справах</label>
+              </div>  -->
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container w-[1140px] mx-auto">
+      <section id="covid-19">
+          <div class="mt-28 px-4">
+            <div class="flex items-center justify-start space-x-4 p-4 border rounded-[2px]">
+              <div class="bg-red-100 w-10 h-10 flex justify-center items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-700" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <div>
+                <p class="text-sm">Перевірте актуальні обмеження щодо подорожей у зв'язку з коронавірусом (COVID-19) до початку <br> поїздки. 
+                  <a href="#" class="text-blue-700">Дізнатися більше</a>
+                </p>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section id="promo">
+        <div class="mt-6 px-4">
+          <div class="flex items-stretch justify-between space-x-8">
+            <div  class="flex basis-1/2 flex-col items-center space-x-2 p-4 bg-white rounded-lg border shadow-md md:flex-row md:max-w-xl ">
+              <img class="object-cover w-36" src="./src/images/refugees_banner.2dde012e.jpg" alt="">
+              <div class="flex flex-col justify-between p-4 leading-normal">
+              <h5 class="mb-2 font-bold tracking-tight text-gray-900 dark:text-white">Допомога біженцям з України</h5>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Безкоштовне проживання й знижені тарифи для людей, які залишають Україну</p>
+              <a href="#" class="font-bold w-fit bg-blue-700 rounded text-sm py-2 px-3 text-white">Дізнатися більше</a>
+              </div>
+            </div>
+            <div  class="flex basis-1/2 flex-col items-center space-x-2 p-4 bg-white rounded-lg border shadow-md md:flex-row md:max-w-xl">
+              <img class="object-cover w-36" src="./src/images/gateway_banner.efe9b1ad.jpg" alt="">
+              <div class="flex flex-col justify-between p-4 leading-normal">
+              <h5 class="mb-2 font-bold tracking-tight text-gray-900 dark:text-white">Save 15% or more</h5>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Plan your dream trip with a Getaway Deal</p>
+              <a href="#" class="font-bold w-fit bg-blue-700 rounded text-sm py-2 px-3 text-white">Explore deals</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="search">
+        <div class="relative mt-6 px-4">
+          <h4 class="text-2xl font-bold">Пошук за типом помешкання</h4>
+          <ul class="flex items-center justify-between space-x-4 mt-4">
+            <li class="flex flex-col basis-1/4">
+              <img class="rounded-lg object-cover" src="./src/images/type/45450095.jpeg" alt="">
+              <div class="mt-4">
+                <h5 class="font-bold">Boats</h5>
+                <span class="text-sm text-gray-500">1 482 boats</span>
+              </div>
+            </li>
+            <li class="flex flex-col basis-1/4">
+              <img class="rounded-lg object-cover" src="./src/images/type/45450097.jpeg" alt="">
+              <div class="mt-4">
+                <h5 class="font-bold">Luxury tents</h5>
+                <span class="text-sm text-gray-500">3 953 luxury tents</span>
+              </div>
+            </li>
+            <li class="flex flex-col basis-1/4">
+              <img class="rounded-lg object-cover" src="./src/images/type/45450075.jpeg" alt="">
+              <div class="mt-4">
+                <h5 class="font-bold">Self catering accommodation</h5>
+                <span class="text-sm text-gray-500">754 077 self catering properties</span>
+              </div>
+            </li>
+            <li class="flex flex-col basis-1/4">
+              <img class="rounded-lg object-cover" src="./src/images/type/57175023.jpeg" alt="">
+              <div class="mt-4">
+                <h5 class="font-bold">Tiny houses</h5>
+                <span class="text-sm text-gray-500">512 tiny houses</span>
+              </div>
+            </li>
+          </ul>
+          <button type="button" class="flex absolute top-0 -left-4 z-5 justify-center items-center px-4 h-full cursor-pointer  group focus:outline-none" data-carousel-prev>
+            <span class="inline-flex justify-center items-center w-9 h-9 rounded-full shadow-lg border border-black/5 bg-white dark:bg-gray-800/30  dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <svg class="w-4 h-4 text-black  dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                <span class="hidden">Previous</span>
+            </span>
+        </button>
+        <button type="button" class="flex absolute top-0 -right-4 z-5 justify-center items-center px-4 h-full cursor-pointer  group focus:outline-none" data-carousel-prev>
+          <span class="inline-flex justify-center items-center w-9 h-9 rounded-full shadow-lg border border-black/5 bg-white dark:bg-gray-800/30  dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg class="w-4 h-4 rotate-180 text-black  dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+              <span class="hidden">Previous</span>
+          </span>
+        </div>
+      </section>
+      <section id="discount">
+        <div class="relative mt-6 px-4">
+          <div class="border rounded-[2px] p-6  bg-no-repeat bg-right bg-[url('/src/images/2b5cdbad7b92073bc396b8b59d0bb421b3a01cba.png')]">
+              <div class="flex items-center justify-start space-x-2">
+                <img src="./src/images/d807514761b3684aedebced9265c5548a063b7a0.png" alt="">
+                <div class="flex flex-col items-start w-full">
+                  <div class="w-1/2 space-y-4">
+                  <h5 class="text-2xl font-bold">Отримайте миттєві знижки</h5>
+                  <p class="">Увійдіть у свій акаунт Booking.com і знайдіть синій логотип Genius, щоб зекономити</p>
+                    <form action="">
+                      <button class="px-4 py-2 mr-2 text-sm text-blue-800 font-bold border border-blue-700 rounded-[2px] hover:bg-blue-100/30">Увійти</button>
+                      <button class="px-4 py-2 text-sm text-blue-800 font-bold border border-transparent rounded-[2px] hover:bg-blue-100/30 hover:border-blue-100/30">Зареєструватися</button>
+                    </form>
+                  </div>
+                </div>
+              
+              </div>
+              
+          </div>
+        </div>
+      </section>
+      <section id="subscription">
+        <div class="relative mt-6 px-4">
+          <div class="border rounded-[2px] p-4">
+            <div class="flex items-center justify-between relative">
+              <div class="flex items-center justify-start space-x-4 w-full">
+              <div>
+                <svg class="w-24 h-24 rounded-full bg-blue-900" 
+                  xmlns="http://www.w3.org/2000/svg" fill="currentColor"  viewBox="0 0 32 32" style="margin: -1px;">
+                  <path d="M15.967-.072C7.158-.072-.008 7.106-.008 15.929c0 8.822 7.166 15.999 15.975 15.999 8.837 0 16.025-7.177 16.025-15.999S24.803-.072 15.967-.072zm7.602 26.823l.034-.134c.054-.216.104-.431.157-.647a.936.936 0 0 0-1.147-1.077c-.404.117-.461-.135-.462-.144a.933.933 0 0 0-.77-.936.933.933 0 0 0-.543.062c-.246.03-.315-.106-.332-.155a.938.938 0 0 0-.772-.91 1.011 1.011 0 0 0-.486.038s-.437.01-.335-.588a.592.592 0 0 0 .009-.186l.698-5.066c.071-.654-.053-1.048-.554-1.132-.543-.09-.822.29-.914.799 0 0-1.602 7.001-1.859 9.367-.079.717-.143 1.843-.196 3.091l-.103.002c-4.35 0-8.208-2.112-10.61-5.368.19-.455.524-.986 1.105-1.529 1.589-1.488 3.391-.193 3.972.058.582.25 3.469 1.043 3.934-.464 0 0 .155-.522.116-1.565 0 0 .039-.483.775-.347.736.134 1.162-.812.406-1.605 0 0 .737-.56 1.124-1.198.388-.637-.135-.676-.251-.772-.116-.097-.426-.812.174-1.024s2.481-.541 1.609-1.933c-.872-1.391-1.512-2.145-1.802-3.265-.291-1.121-.251-1.372.136-1.874s.33-1.237.33-2.01c0-.294.035-.928-.023-1.699l-.068.119c-.556.965-1.855 1.774-2.72 2.413-1.728 1.274-3.82 1.951-5.627 3.09-1.999 1.261-3.188 3.21-3.852 5.441a19.076 19.076 0 0 0-.717 4.099c-.036.528-.031 1.09.008 1.653-2.351-4.849-1.522-10.844 2.512-14.867 2.781-2.773 6.502-4.012 10.14-3.758l-.002-.009c6.993.349 12.566 6.126 12.566 13.199 0 4.483-2.241 8.442-5.66 10.831zM13.473 9.329c.685-.495 1.112-.479 1.112-.479a.785.785 0 1 1 0 1.57.78.78 0 0 1-.578-.261c-.374-.322-.534-.83-.534-.83z" fill="#FEBA02"></path>
+                </svg>
+              </div>
+                <div class="flex flex-col items-start space-y-3 w-full">
+                  <h5 class="font-bold">Підпишіться, щоб переглядати Таємні пропозиції</h5>
+                  <p class="text-sm">Ціни знизяться, щойно ви увійдете в акаунт!</p>
+                  <form action="" class="w-full flex space-x-2">
+                    <input class="w-1/2 text-sm leading-3 border border-gray-400 rounded-[2px] p-[7px] outline-2 focus:outline-offset-0 focus:border-blue-600  focus:outline-blue-300 placeholder:text-sm" type="text" placeholder="Введіть електронну адресу">
+                    <button class="px-4 py-2 mr-2 text-sm text-blue-900/80 font-bold border border-blue-700 rounded-[2px] hover:bg-blue-100/30">Підписатися</button>
+                  </form>
+                </div>
+              
+              <div class="absolute right-0 top-0">
+                <button>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            </div>  
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="w-full bg-blue-900">
+      <div class="container w-[1140px] mx-auto">
+        <div class="w-1/2 mx-auto">
+          <h4 class="text-2xl font-thin text-white">Зекономте час та гроші!</h4>
+          <p class="text-gray-400">Підпишіться і ми надсилатимемо вам найкращі пропозиції</p>
+          <div>
+            <form action="">
+              <div>
+                <input class="p-[10px] rounded border-none focus:ring-0 focus:outline-white focus:outline-offset-2 placeholder:text-xl font-thin text-gray-600" type="text" name="" id="" placeholder="Ваш e-mail">
+                <button class="px-[15px] py-2 bg-indigo-500/70 rounded text-white text-xl font-thin cursor-pointer">Підписатись</button>
+              </div>
+              <div>       
+                <input  id="checked-checkbox" type="checkbox" value="" class="w-3.5 h-3.5 border-gray-300 
+                 active:outline-none focus:ring-transparent dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                <label for="checked-checkbox" class="ml-2 text-sm  text-white dark:text-gray-300">Надішліть мені посилання для завантаження БЕЗКОШТОВНОГО додатка Booking.com!</label>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/flowbite@1.4.7/dist/datepicker.js"></script>
+  </body>
+</html>
